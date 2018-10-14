@@ -44,19 +44,8 @@
                                     <outletCollection property="gestureRecognizers" destination="g4n-5u-vno" appends="YES" id="SMt-dx-OW9"/>
                                 </connections>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCh-7W-7jG">
-                                <rect key="frame" x="57" y="328" width="260" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Dennis Ritchie">
-                                    <color key="titleColor" red="0.2588235438" green="0.75686275960000005" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="didTapOption1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7k-KH-pjL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bim-JZ-F4U">
-                                <rect key="frame" x="57" y="388" width="260" height="39"/>
+                                <rect key="frame" x="57" y="385" width="260" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Steve Jobs">
@@ -67,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nvc-LT-vdp">
-                                <rect key="frame" x="57" y="444" width="260" height="39"/>
+                                <rect key="frame" x="57" y="444" width="260" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Bjarne Stroustrup">
@@ -75,6 +64,17 @@
                                 </state>
                                 <connections>
                                     <action selector="didTapOption3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oIb-bd-lMd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCh-7W-7jG">
+                                <rect key="frame" x="57" y="326" width="260" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Dennis Ritchie">
+                                    <color key="titleColor" red="0.2588235438" green="0.75686275960000005" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOption1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7k-KH-pjL"/>
                                 </connections>
                             </button>
                         </subviews>

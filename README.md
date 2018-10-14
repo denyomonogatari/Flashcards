@@ -5,7 +5,7 @@ The app shows a question. When the user taps on the question they will see the a
 
 ### App Walk-though
 
-<img src="https://i.imgur.com/beiErNA.gif" width=200><br>
+<img src="https://i.imgur.com/ZG2u4Gv.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode
